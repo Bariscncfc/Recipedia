@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.intro {
+  background-color: white;
+  color: #192a56;
+  padding-top: 80px;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: white;
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 5px 20px black;
+}
+
+.search-button {
+  background: #192a56;
+  border: 2px solid #192a56;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: #4cd137;
+  color: #192a56;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+}
